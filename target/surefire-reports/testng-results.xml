@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80654" started-at="2019-12-08T14:00:06Z" finished-at="2019-12-08T14:01:27Z">
+    <groups>
+    </groups>
+    <test name="testng" duration-ms="80654" started-at="2019-12-08T14:00:06Z" finished-at="2019-12-08T14:01:27Z">
+      <class name="test.LoginToTrelloTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.LoginToTrelloTest@1445d7f]" name="openBrowser" is-config="true" duration-ms="10811" started-at="2019-12-08T14:01:06Z" finished-at="2019-12-08T14:01:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testTrelloPageLogin()[pri:0, instance:test.LoginToTrelloTest@1445d7f]" name="testTrelloPageLogin" duration-ms="9347" started-at="2019-12-08T14:01:17Z" description="Login to Trello" finished-at="2019-12-08T14:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrelloPageLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.LoginToTrelloTest@1445d7f]" name="closeBrowser" is-config="true" duration-ms="720" started-at="2019-12-08T14:01:26Z" finished-at="2019-12-08T14:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.LoginToTrelloTest -->
+      <class name="test.ActionsOnBoardPageTests">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageTests@80ec1f8]" name="openBrowser" is-config="true" duration-ms="9191" started-at="2019-12-08T14:00:06Z" finished-at="2019-12-08T14:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageTests@80ec1f8]" name="createNewBoard" duration-ms="49694" started-at="2019-12-08T14:00:15Z" description="Actions performed on Trello Board Page" finished-at="2019-12-08T14:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBoard -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageTests@80ec1f8]" name="closeBrowser" is-config="true" duration-ms="865" started-at="2019-12-08T14:01:05Z" finished-at="2019-12-08T14:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.ActionsOnBoardPageTests -->
+    </test> <!-- testng -->
+  </suite> <!-- Suite -->
+</testng-results>
