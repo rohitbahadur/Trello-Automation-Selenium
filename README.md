@@ -55,8 +55,8 @@ If github is not configured on the system, then project can be downloaded using 
 3. setup package --> This package has DriverSetup class to initialize the 
    webdriver/s which is used to launch the browser/s(chrome,firefox).For 
    the current implementation Chrome is used as a default browser.
-###### Note I have eliminated the need to download the browser drivers locally.
-    This has been achieved using WebDriverManager.
+###### Note: I have eliminated the need to download the browser drivers locally.
+    This has been achieved using WebDriverManager in the setup.
 4. utils package --> Also, we have included a utils package which has a 
    class "WaitForPagesToLoad" designed to wait for specific time for the 
    pages to load in the application.This has been extended in all the 
