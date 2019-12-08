@@ -68,6 +68,6 @@ If github is not configured on the system, then project can be downloaded using 
 
 #### Execution procedure
      For executing the tests, expand 
-     com.klocktrello and right click on Run As --> Maven test             
+     com.klocktrello and right click pom.xml and select Run As --> Maven test             
 
 
