@@ -36,4 +36,3 @@ If github is not configured on the system, then project can be downloaded using 
 
 #### Project Design Strategy
 
-
