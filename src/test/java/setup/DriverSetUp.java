@@ -11,6 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DriverSetUp {
 
 	/* Initialize WebDriver */
+	
 	public static WebDriver browser;
 
 	@BeforeMethod
