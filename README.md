@@ -24,7 +24,15 @@ If github is not configured on the system, then project can be downloaded using 
 
 
 
-### Installation
+### Installation (using git, assumption is a repo created on github )
+1. If using git,create a project folder on your local machine.
+2. From the git repo click on Clone or download option and copy the link. 
+2. Go to command prompt and navigate to the project and folder and type git clone "copy the link" (copy the link is the link copied from git repo).
+
+
+
+
+### Installation (without git)
 1. There is no additional settings or configurations required. The 
    project can be downloaded using git or option "Download ZIP" from 
    https://github.com/rohitbahadur/Trello.
@@ -61,3 +69,5 @@ If github is not configured on the system, then project can be downloaded using 
 #### Execution procedure
      For executing the tests, expand 
      com.klocktrello and right click on Run As --> Maven test             
+
+
