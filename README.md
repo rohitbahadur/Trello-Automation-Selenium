@@ -70,7 +70,33 @@ If github is not configured on the system, then project can be downloaded using 
 
 #### Execution procedure
 Do mention the path of java compiler on your local system @ in the build --> plugins--> configurations--> executable tab 
- "<executable>" java compiler to be cofigured here"</executable>"  in pom.xml
+ ```<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<fork>true</fork>
+					<executable>C:\Program Files\Java\jdk1.8.0_201\bin\javac</executable>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M3</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>```
+ 
+ 
+ "executable" java compiler to be cofigured here"</executable>"  in pom.xml
 
      For executing the tests, expand com.klocktrello and right click pom.xml and select Run As --> Maven test
      
