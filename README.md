@@ -63,7 +63,7 @@ If github is not configured on the system, then project can be downloaded using 
    page classes(BoardPageElement, HomePage, TrelloHomePage).
 5. test package --> This package contains all the test classes designed. 
    These are testng type which are included in testng.xml to be included 
-   for execution.
+   for execution and in turn will be executed using sure-fire plugin in pom.xml
 6. All the dependency required for project execution are available under 
    pom.xml.
 
