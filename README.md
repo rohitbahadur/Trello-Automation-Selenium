@@ -70,12 +70,12 @@ If github is not configured on the system, then project can be downloaded using 
 
 #### Execution procedure
 Do mention the path of java compiler on your local system @
-! <build> 
+"<build> 
  <plugins>
 <plugin>
     <configuration>
     <executable> java compiler to be cofigured here</executable>  in pom.xml
-  !   
+"   
      For executing the tests, expand com.klocktrello and right click pom.xml and select Run As --> Maven test
      
 
