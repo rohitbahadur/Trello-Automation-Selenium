@@ -69,6 +69,13 @@ If github is not configured on the system, then project can be downloaded using 
 
 
 #### Execution procedure
+Do mention the path of java compiler on your local system @
+<build> 
+ <plugins>
+			<plugin>
+    <configuration>
+    <executable>C:\Program Files\Java\jdk1.8.0_201\bin\javac</executable>  in pom.xml
+     
      For executing the tests, expand com.klocktrello and right click pom.xml and select Run As --> Maven test
      
 
