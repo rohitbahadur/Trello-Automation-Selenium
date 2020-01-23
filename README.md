@@ -29,7 +29,7 @@ If github is not configured on the system, then project can be downloaded using 
 2. From the git repo click on Clone or download option and copy the link. 
 2. Go to command prompt and navigate to the project and folder and type git clone "copy the link" (copy the link is the link copied from git repo).
 
-.
+..
 
 
 ### Installation (without git)
