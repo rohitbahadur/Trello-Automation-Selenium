@@ -8,11 +8,11 @@ import utils.WaitForPagesToLoad;
 
 public class HomePage extends WaitForPagesToLoad {
 
-	public static WebElement element = null;
+//	public static WebElement element = null;
 
 	/* Returns the login button element on landing page */
 
-	public WebElement loginButton() {
+	private WebElement loginButton() {
 		element = browser.findElement(By.xpath("//a[contains(@href,'/login')]"));
 		return element;
 	}

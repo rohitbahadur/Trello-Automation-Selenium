@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52925" started-at="2019-12-08T14:58:40Z" finished-at="2019-12-08T14:59:33Z">
+  <suite name="Default suite" duration-ms="47268" started-at="2020-03-30T20:52:52Z" finished-at="2020-03-30T20:53:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52925" started-at="2019-12-08T14:58:40Z" finished-at="2019-12-08T14:59:33Z">
-      <class name="test.ActionsOnBoardPageTests">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageTests@39c0f4a]" name="openBrowser" is-config="true" duration-ms="10202" started-at="2019-12-08T14:58:40Z" finished-at="2019-12-08T14:58:51Z">
+    <test name="Default test" duration-ms="47268" started-at="2020-03-30T20:52:52Z" finished-at="2020-03-30T20:53:39Z">
+      <class name="test.ActionsOnBoardPageToPrivateTests">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@39c0f4a]" name="openBrowser" is-config="true" duration-ms="18143" started-at="2020-03-30T20:52:52Z" finished-at="2020-03-30T20:53:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageTests@39c0f4a]" name="createNewBoard" duration-ms="41845" started-at="2019-12-08T14:58:51Z" description="Actions performed on Trello Board Page" finished-at="2019-12-08T14:59:32Z">
+        <test-method status="PASS" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@39c0f4a]" name="createNewBoard" duration-ms="28295" started-at="2020-03-30T20:53:10Z" description="Actions performed on Trello Board Page" finished-at="2020-03-30T20:53:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewBoard -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageTests@39c0f4a]" name="closeBrowser" is-config="true" duration-ms="830" started-at="2019-12-08T14:59:32Z" finished-at="2019-12-08T14:59:33Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@39c0f4a]" name="closeBrowser" is-config="true" duration-ms="727" started-at="2020-03-30T20:53:38Z" finished-at="2020-03-30T20:53:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- test.ActionsOnBoardPageTests -->
+      </class> <!-- test.ActionsOnBoardPageToPrivateTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

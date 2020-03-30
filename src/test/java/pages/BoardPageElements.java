@@ -10,7 +10,7 @@ import utils.WaitForPagesToLoad;
 
 public class BoardPageElements extends WaitForPagesToLoad {
 
-	public static WebElement element = null;
+	//public static WebElement element = null;
 
 	/* Returns webelement to create new board */
 	

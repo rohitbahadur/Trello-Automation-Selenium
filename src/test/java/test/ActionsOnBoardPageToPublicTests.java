@@ -43,7 +43,7 @@ public class ActionsOnBoardPageToPublicTests extends DriverSetUp {
 		
 		BoardPageElements boardPage = new BoardPageElements();
 		boardPage.clickOnCreateNewBoardElement();
-		Thread.sleep(5000); // have included this just to make a view of  the page.
+		//Thread.sleep(5000); // have included this just to make a view of  the page.
 		
 		boardPage.clickOnPermissionToMakePrivatePublic();
 		Thread.sleep(5000); // have included this just to make a view of  the page that Public Page has been made Private
@@ -51,7 +51,7 @@ public class ActionsOnBoardPageToPublicTests extends DriverSetUp {
 		boardPage.clickOnchangeVisibilityClickPublicButton();
 		
 		boardPage.clickOnmakeBoardPublicButton();
-		Thread.sleep(5000); // have included this just to make a view of  the page that Public Page has been made Private
+		//Thread.sleep(5000); // have included this just to make a view of  the page that Public Page has been made Private
 		
 		
 		Assert.assertEquals(trelloHomePageTitle, expectedTitle);

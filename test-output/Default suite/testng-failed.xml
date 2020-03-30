@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.ActionsOnBoardPageTests">
+      <class name="test.LoginToTrelloTest">
         <methods>
+          <include name="testTrelloPageLogin"/>
           <include name="closeBrowser"/>
           <include name="openBrowser"/>
-          <include name="createNewBoard"/>
         </methods>
-      </class> <!-- test.ActionsOnBoardPageTests -->
+      </class> <!-- test.LoginToTrelloTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

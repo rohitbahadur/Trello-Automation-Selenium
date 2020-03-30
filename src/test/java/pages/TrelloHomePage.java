@@ -11,7 +11,7 @@ import utils.WaitForPagesToLoad;
 
 public class TrelloHomePage extends WaitForPagesToLoad {
 
-	public static WebElement element = null;
+	//public static WebElement element = null;
 
 	/* Returns the username element */
 
@@ -56,7 +56,7 @@ public class TrelloHomePage extends WaitForPagesToLoad {
 	/* Returns the continue button element */
 	
 	private WebElement continueButton() {
-		element = browser.findElement(By.id("login-submit"));
+		element = browser.findElement(By.xpath("//*[@id=\"login-submit\"]/span/span"));
 		return element;
 	}
 

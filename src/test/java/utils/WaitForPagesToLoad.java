@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import setup.DriverSetUp;
 
 public class WaitForPagesToLoad extends DriverSetUp {
+	public static WebElement element = null;
 
 	protected static WebElement waitForElementToBeVisible(WebDriver browser, WebElement webElement) {
 
