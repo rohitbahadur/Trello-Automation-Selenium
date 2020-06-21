@@ -12,7 +12,7 @@ public class WaitForPagesToLoad extends DriverSetUp {
 
 	protected static WebElement waitForElementToBeVisible(WebDriver browser, WebElement webElement) {
 
-		WebDriverWait wait = new WebDriverWait(browser, 20);
+		WebDriverWait wait = new WebDriverWait(browser, 60);
 
 		WebElement element = wait.until(ExpectedConditions.visibilityOf(webElement));
 		return element;
@@ -20,7 +20,7 @@ public class WaitForPagesToLoad extends DriverSetUp {
 
 	protected static WebElement waitForElementToBeClickable(WebDriver browser, WebElement webElement) {
 
-		WebDriverWait wait = new WebDriverWait(browser, 20);
+		WebDriverWait wait = new WebDriverWait(browser, 60);
 
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(webElement));
 		return element;

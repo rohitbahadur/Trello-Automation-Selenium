@@ -21,8 +21,9 @@ public class TrelloHomePage extends WaitForPagesToLoad {
 	}
 
 	public void enterUserName() {
-
-		waitForElementToBeVisible(browser, userName()).sendKeys(ProjectConfig.prop.getProperty("username"));
+		waitForElementToBeVisible(browser, userName()).sendKeys(ProjectConfig.AccessDetails.userName);
+				
+		//waitForElementToBeVisible(browser, userName()).sendKeys(ProjectConfig.prop.getProperty("username"));
 		//browser.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	}
 
@@ -35,8 +36,8 @@ public class TrelloHomePage extends WaitForPagesToLoad {
 	}
 
 	public void enterPassword() {
-
-		waitForElementToBeVisible(browser, password()).sendKeys(ProjectConfig.prop.getProperty("password"));
+		waitForElementToBeVisible(browser, password()).sendKeys(ProjectConfig.AccessDetails.passWord);
+		//waitForElementToBeVisible(browser, password()).sendKeys(ProjectConfig.prop.getProperty("password"));
 		
 	}
 
@@ -63,7 +64,7 @@ public class TrelloHomePage extends WaitForPagesToLoad {
 	public void clickContinueButton() {
 
 		waitForElementToBeVisible(browser, continueButton()).click();
-		browser.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		browser.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}
 
 	/* Returns the password element on atlassian page */
@@ -75,7 +76,7 @@ public class TrelloHomePage extends WaitForPagesToLoad {
 
 	public void enterCurrentPassword() {
 
-		waitForElementToBeVisible(browser, currentPassword()).sendKeys(ProjectConfig.prop.getProperty("password"));
+		waitForElementToBeVisible(browser, currentPassword()).sendKeys(ProjectConfig.AccessDetails.passWord);
 		// browser.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	}
 

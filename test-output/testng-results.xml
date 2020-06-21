@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47268" started-at="2020-03-30T20:52:52Z" finished-at="2020-03-30T20:53:39Z">
+  <suite name="Default suite" duration-ms="17815" started-at="2020-06-21T03:33:53Z" finished-at="2020-06-21T03:34:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47268" started-at="2020-03-30T20:52:52Z" finished-at="2020-03-30T20:53:39Z">
-      <class name="test.ActionsOnBoardPageToPrivateTests">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@39c0f4a]" name="openBrowser" is-config="true" duration-ms="18143" started-at="2020-03-30T20:52:52Z" finished-at="2020-03-30T20:53:10Z">
+    <test name="Default test" duration-ms="17815" started-at="2020-06-21T03:33:53Z" finished-at="2020-06-21T03:34:10Z">
+      <class name="test.LoginToTrelloTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.LoginToTrelloTest@39c0f4a]" name="openBrowser" is-config="true" duration-ms="8410" started-at="2020-06-21T03:33:53Z" finished-at="2020-06-21T03:34:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@39c0f4a]" name="createNewBoard" duration-ms="28295" started-at="2020-03-30T20:53:10Z" description="Actions performed on Trello Board Page" finished-at="2020-03-30T20:53:38Z">
+        <test-method status="PASS" signature="testTrelloPageLogin()[pri:0, instance:test.LoginToTrelloTest@39c0f4a]" name="testTrelloPageLogin" duration-ms="8625" started-at="2020-06-21T03:34:01Z" description="Login to Trello" finished-at="2020-06-21T03:34:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewBoard -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@39c0f4a]" name="closeBrowser" is-config="true" duration-ms="727" started-at="2020-03-30T20:53:38Z" finished-at="2020-03-30T20:53:39Z">
+        </test-method> <!-- testTrelloPageLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.LoginToTrelloTest@39c0f4a]" name="closeBrowser" is-config="true" duration-ms="740" started-at="2020-06-21T03:34:10Z" finished-at="2020-06-21T03:34:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- test.ActionsOnBoardPageToPrivateTests -->
+      </class> <!-- test.LoginToTrelloTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -22,7 +22,7 @@ public class ActionsOnBoardPageToPrivateTests extends DriverSetUp {
 	@Test(description ="Actions performed on Trello Board Page")
 	public void createNewBoard() throws InterruptedException {
 
-		/* Create and instance of HomemPage */
+		/* Create and instance of Home Page */
 		
 	
 
