@@ -12,7 +12,7 @@ public class LoginToTrelloTest extends DriverSetUp {
 
 	WebDriver browser;
 
-	@Test(description= "Login to Trello")
+	@Test(description= "Verify Login to Trello")
 	public void testTrelloPageLogin() {
 
 		HomePage homepage = new HomePage();
