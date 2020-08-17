@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17815" started-at="2020-06-21T03:33:53Z" finished-at="2020-06-21T03:34:10Z">
+  <suite name="Failed suite [Default suite]" duration-ms="23527" started-at="2020-08-17T19:31:53Z" finished-at="2020-08-17T19:32:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17815" started-at="2020-06-21T03:33:53Z" finished-at="2020-06-21T03:34:10Z">
+    <test name="Default test(failed)" duration-ms="23527" started-at="2020-08-17T19:31:53Z" finished-at="2020-08-17T19:32:17Z">
       <class name="test.LoginToTrelloTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.LoginToTrelloTest@39c0f4a]" name="openBrowser" is-config="true" duration-ms="8410" started-at="2020-06-21T03:33:53Z" finished-at="2020-06-21T03:34:01Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.LoginToTrelloTest@754ba872]" name="openBrowser" is-config="true" duration-ms="13981" started-at="2020-08-17T19:31:53Z" finished-at="2020-08-17T19:32:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testTrelloPageLogin()[pri:0, instance:test.LoginToTrelloTest@39c0f4a]" name="testTrelloPageLogin" duration-ms="8625" started-at="2020-06-21T03:34:01Z" description="Login to Trello" finished-at="2020-06-21T03:34:10Z">
+        <test-method status="PASS" signature="testTrelloPageLogin()[pri:0, instance:test.LoginToTrelloTest@754ba872]" name="testTrelloPageLogin" duration-ms="8326" started-at="2020-08-17T19:32:07Z" description="Login to Trello" finished-at="2020-08-17T19:32:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTrelloPageLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.LoginToTrelloTest@39c0f4a]" name="closeBrowser" is-config="true" duration-ms="740" started-at="2020-06-21T03:34:10Z" finished-at="2020-06-21T03:34:10Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.LoginToTrelloTest@754ba872]" name="closeBrowser" is-config="true" duration-ms="1189" started-at="2020-08-17T19:32:16Z" finished-at="2020-08-17T19:32:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.LoginToTrelloTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>

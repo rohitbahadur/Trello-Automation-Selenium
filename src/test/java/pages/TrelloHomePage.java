@@ -21,9 +21,9 @@ public class TrelloHomePage extends WaitForPagesToLoad {
 	}
 
 	public void enterUserName() {
-		waitForElementToBeVisible(browser, userName()).sendKeys(ProjectConfig.AccessDetails.userName);
+		//waitForElementToBeVisible(browser, userName()).sendKeys(ProjectConfig.AccessDetails.userName);
 				
-		//waitForElementToBeVisible(browser, userName()).sendKeys(ProjectConfig.prop.getProperty("username"));
+		waitForElementToBeVisible(browser, userName()).sendKeys(ProjectConfig.prop.getProperty("username"));
 		//browser.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	}
 
@@ -36,8 +36,8 @@ public class TrelloHomePage extends WaitForPagesToLoad {
 	}
 
 	public void enterPassword() {
-		waitForElementToBeVisible(browser, password()).sendKeys(ProjectConfig.AccessDetails.passWord);
-		//waitForElementToBeVisible(browser, password()).sendKeys(ProjectConfig.prop.getProperty("password"));
+		//waitForElementToBeVisible(browser, password()).sendKeys(ProjectConfig.AccessDetails.passWord);
+		waitForElementToBeVisible(browser, password()).sendKeys(ProjectConfig.prop.getProperty("password"));
 		
 	}
 
@@ -76,7 +76,7 @@ public class TrelloHomePage extends WaitForPagesToLoad {
 
 	public void enterCurrentPassword() {
 
-		waitForElementToBeVisible(browser, currentPassword()).sendKeys(ProjectConfig.AccessDetails.passWord);
+		waitForElementToBeVisible(browser, currentPassword()).sendKeys(ProjectConfig.prop.getProperty("passWord"));
 		// browser.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	}
 

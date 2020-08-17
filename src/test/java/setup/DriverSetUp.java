@@ -31,9 +31,9 @@ public class DriverSetUp {
 		WebDriverManager.chromedriver().setup();
 
 		browser = new ChromeDriver();
-		browser.navigate().to(ProjectConfig.URL.appUrl);
+		//browser.navigate().to(ProjectConfig.URL.appUrl);
 		
-		//browser.get(ProjectConfig.prop.getProperty("baseurl"));
+		browser.get(ProjectConfig.prop.getProperty("baseurl"));
 		browser.manage().window().maximize();
 	}
 

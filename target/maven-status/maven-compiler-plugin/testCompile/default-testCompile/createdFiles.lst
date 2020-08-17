@@ -1,4 +1,6 @@
 test\LoginToTrelloTest.class
+config\ProjectConfig$AccessDetails.class
+config\ProjectConfig$URL.class
 config\ProjectConfig.class
 pages\HomePage.class
 pages\TrelloHomePage.class

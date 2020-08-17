@@ -9,12 +9,34 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">testng</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">101,082</td><td></td><td></td></tr>
+<tr><td><a href="#t0">testng</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">104,738</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">testng &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.ActionsOnBoardPageToPrivateTests</td><td><a href="#m0">createNewBoard</a></td><td rowspan="1">1592710521941</td><td rowspan="1">31165</td></tr><tr class="passedodd"><td rowspan="1">test.ActionsOnBoardPageToPublicTests</td><td><a href="#m1">createNewBoard</a></td><td rowspan="1">1592710560308</td><td rowspan="1">36015</td></tr><tr class="passedeven"><td rowspan="1">test.LoginToTrelloTest</td><td><a href="#m2">testTrelloPageLogin</a></td><td rowspan="1">1592710504011</td><td rowspan="1">10138</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">testng &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.LoginToTrelloTest</td><td><a href="#m0">testTrelloPageLogin</a></td><td rowspan="1">1596105438979</td><td rowspan="1">5757</td></tr><tr><th colspan="4">testng &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">test.ActionsOnBoardPageToPrivateTests</td><td><a href="#m1">createNewBoard</a></td><td rowspan="1">1596105454125</td><td rowspan="1">30331</td></tr><tr class="passedodd"><td rowspan="1">test.ActionsOnBoardPageToPublicTests</td><td><a href="#m2">createNewBoard</a></td><td rowspan="1">1596105492683</td><td rowspan="1">32728</td></tr></tbody>
 </table>
-<h2>testng</h2><h3 id="m0">test.ActionsOnBoardPageToPrivateTests#createNewBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">test.ActionsOnBoardPageToPublicTests#createNewBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">test.LoginToTrelloTest#testTrelloPageLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>testng</h2><h3 id="m0">test.LoginToTrelloTest#testTrelloPageLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user&quot;}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MYPC&apos;, ip: &apos;192.168.40.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 29bc572a418a0dd8a4efa194f27995c3
+*** Element info: {Using=id, value=user}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.TrelloHomePage.userName(TrelloHomePage.java:19)
+	at pages.TrelloHomePage.enterUserName(TrelloHomePage.java:24)
+	at test.LoginToTrelloTest.testTrelloPageLogin(LoginToTrelloTest.java:23)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.ActionsOnBoardPageToPrivateTests#createNewBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.ActionsOnBoardPageToPublicTests#createNewBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
