@@ -1,84 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="104738" started-at="2020-07-30T10:37:01Z" finished-at="2020-07-30T10:38:46Z">
+  <suite name="Suite" duration-ms="50156" started-at="2020-08-17T22:35:32Z" finished-at="2020-08-17T22:36:22Z">
     <groups>
     </groups>
-    <test name="testng" duration-ms="104738" started-at="2020-07-30T10:37:01Z" finished-at="2020-07-30T10:38:46Z">
+    <test name="testng" duration-ms="50156" started-at="2020-08-17T22:35:32Z" finished-at="2020-08-17T22:36:22Z">
       <class name="test.ActionsOnBoardPageToPrivateTests">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="openBrowser" is-config="true" duration-ms="8630" started-at="2020-07-30T10:37:25Z" finished-at="2020-07-30T10:37:34Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="openBrowser" is-config="true" duration-ms="6674" started-at="2020-08-17T22:35:57Z" finished-at="2020-08-17T22:36:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="createNewBoard" duration-ms="30331" started-at="2020-07-30T10:37:34Z" description="Actions performed on Trello Board Page" finished-at="2020-07-30T10:38:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewBoard -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="closeBrowser" is-config="true" duration-ms="727" started-at="2020-07-30T10:38:04Z" finished-at="2020-07-30T10:38:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- test.ActionsOnBoardPageToPrivateTests -->
-      <class name="test.ActionsOnBoardPageToPublicTests">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="openBrowser" is-config="true" duration-ms="7498" started-at="2020-07-30T10:38:05Z" finished-at="2020-07-30T10:38:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="createNewBoard" duration-ms="32728" started-at="2020-07-30T10:38:12Z" description="Actions performed on Trello Board Page" finished-at="2020-07-30T10:38:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewBoard -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="closeBrowser" is-config="true" duration-ms="749" started-at="2020-07-30T10:38:45Z" finished-at="2020-07-30T10:38:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- test.ActionsOnBoardPageToPublicTests -->
-      <class name="test.LoginToTrelloTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="openBrowser" is-config="true" duration-ms="17525" started-at="2020-07-30T10:37:01Z" finished-at="2020-07-30T10:37:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="testTrelloPageLogin()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="testTrelloPageLogin" duration-ms="5757" started-at="2020-07-30T10:37:18Z" description="Login to Trello" finished-at="2020-07-30T10:37:24Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="createNewBoard" duration-ms="5822" started-at="2020-08-17T22:36:03Z" description="Actions performed on Trello Board Page" finished-at="2020-08-17T22:36:09Z">
+          <exception class="java.lang.IllegalArgumentException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYPC', ip: '192.168.40.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 29bc572a418a0dd8a4efa194f27995c3
-*** Element info: {Using=id, value=user}]]>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user"}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYPC', ip: '192.168.40.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 29bc572a418a0dd8a4efa194f27995c3
-*** Element info: {Using=id, value=user}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at pages.TrelloHomePage.userName(TrelloHomePage.java:19)
-at pages.TrelloHomePage.enterUserName(TrelloHomePage.java:24)
-at test.LoginToTrelloTest.testTrelloPageLogin(LoginToTrelloTest.java:23)
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
+at test.ActionsOnBoardPageToPrivateTests.createNewBoard(ActionsOnBoardPageToPrivateTests.java:45)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -110,11 +52,121 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBoard -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="closeBrowser" is-config="true" duration-ms="730" started-at="2020-08-17T22:36:09Z" finished-at="2020-08-17T22:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.ActionsOnBoardPageToPrivateTests -->
+      <class name="test.ActionsOnBoardPageToPublicTests">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="openBrowser" is-config="true" duration-ms="6220" started-at="2020-08-17T22:36:10Z" finished-at="2020-08-17T22:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="createNewBoard" duration-ms="5607" started-at="2020-08-17T22:36:16Z" description="Actions performed on Trello Board Page" finished-at="2020-08-17T22:36:22Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
+at test.ActionsOnBoardPageToPublicTests.createNewBoard(ActionsOnBoardPageToPublicTests.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBoard -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="closeBrowser" is-config="true" duration-ms="700" started-at="2020-08-17T22:36:22Z" finished-at="2020-08-17T22:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.ActionsOnBoardPageToPublicTests -->
+      <class name="test.LoginToTrelloTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="openBrowser" is-config="true" duration-ms="16573" started-at="2020-08-17T22:35:32Z" finished-at="2020-08-17T22:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="testTrelloPageLogin()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="testTrelloPageLogin" duration-ms="6613" started-at="2020-08-17T22:35:49Z" description="Login to Trello" finished-at="2020-08-17T22:35:55Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
+at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
+at test.LoginToTrelloTest.testTrelloPageLogin(LoginToTrelloTest.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTrelloPageLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="closeBrowser" is-config="true" duration-ms="697" started-at="2020-07-30T10:37:24Z" finished-at="2020-07-30T10:37:25Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="closeBrowser" is-config="true" duration-ms="1143" started-at="2020-08-17T22:35:55Z" finished-at="2020-08-17T22:35:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

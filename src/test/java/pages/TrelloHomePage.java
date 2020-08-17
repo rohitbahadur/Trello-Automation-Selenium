@@ -76,7 +76,7 @@ public class TrelloHomePage extends WaitForPagesToLoad {
 
 	public void enterCurrentPassword() {
 
-		waitForElementToBeVisible(browser, currentPassword()).sendKeys(ProjectConfig.prop.getProperty("passWord"));
+		waitForElementToBeVisible(browser, currentPassword()).sendKeys(ProjectConfig.prop.getProperty("password"));
 		// browser.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	}
 
