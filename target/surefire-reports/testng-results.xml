@@ -1,173 +1,344 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Test initiated ]]>
+    </line>
+    <line>
+      <![CDATA[Chrome borwser is launched ]]>
+    </line>
+    <line>
+      <![CDATA[trello home page is launched ]]>
+    </line>
+    <line>
+      <![CDATA[clickLoginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[userName Element is detected and userName is entered]]>
+    </line>
+    <line>
+      <![CDATA[password Element is detected and password is entered]]>
+    </line>
+    <line>
+      <![CDATA[atlassianLoginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[continueButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[currentPassword Element is detected and current password is entered]]>
+    </line>
+    <line>
+      <![CDATA[loginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[loginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[Verify Title of new window]]>
+    </line>
+    <line>
+      <![CDATA[Tests Completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser is quit]]>
+    </line>
+    <line>
+      <![CDATA[Test initiated ]]>
+    </line>
+    <line>
+      <![CDATA[Chrome borwser is launched ]]>
+    </line>
+    <line>
+      <![CDATA[trello home page is launched ]]>
+    </line>
+    <line>
+      <![CDATA[clickLoginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[userName Element is detected and userName is entered]]>
+    </line>
+    <line>
+      <![CDATA[password Element is detected and password is entered]]>
+    </line>
+    <line>
+      <![CDATA[atlassianLoginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[continueButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[currentPassword Element is detected and current password is entered]]>
+    </line>
+    <line>
+      <![CDATA[loginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[loginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[Verify Title of new window]]>
+    </line>
+    <line>
+      <![CDATA[CreateNewBoard Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[permissionToMakePrivatePublic Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[changeVisibilityClickPublicButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[Tests Completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser is quit]]>
+    </line>
+    <line>
+      <![CDATA[Test initiated ]]>
+    </line>
+    <line>
+      <![CDATA[Chrome borwser is launched ]]>
+    </line>
+    <line>
+      <![CDATA[trello home page is launched ]]>
+    </line>
+    <line>
+      <![CDATA[clickLoginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[userName Element is detected and userName is entered]]>
+    </line>
+    <line>
+      <![CDATA[password Element is detected and password is entered]]>
+    </line>
+    <line>
+      <![CDATA[atlassianLoginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[continueButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[currentPassword Element is detected and current password is entered]]>
+    </line>
+    <line>
+      <![CDATA[loginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[loginButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[Verify Title of new window]]>
+    </line>
+    <line>
+      <![CDATA[CreateNewBoard Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[permissionToMakePrivatePublic Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[changeVisibilityClickPublicButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[makeBoardPublicButton Element is detected and clicked]]>
+    </line>
+    <line>
+      <![CDATA[Tests Completed]]>
+    </line>
+    <line>
+      <![CDATA[Browser is quit]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="50156" started-at="2020-08-17T22:35:32Z" finished-at="2020-08-17T22:36:22Z">
+  <suite name="Suite" duration-ms="81610" started-at="2020-08-29T17:43:02Z" finished-at="2020-08-29T17:44:23Z">
     <groups>
     </groups>
-    <test name="testng" duration-ms="50156" started-at="2020-08-17T22:35:32Z" finished-at="2020-08-17T22:36:22Z">
+    <test name="testng" duration-ms="81610" started-at="2020-08-29T17:43:02Z" finished-at="2020-08-29T17:44:23Z">
       <class name="test.ActionsOnBoardPageToPrivateTests">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="openBrowser" is-config="true" duration-ms="6674" started-at="2020-08-17T22:35:57Z" finished-at="2020-08-17T22:36:03Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="openBrowser" is-config="true" duration-ms="6623" started-at="2020-08-29T17:43:20Z" finished-at="2020-08-29T17:43:26Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test initiated ]]>
+            </line>
+            <line>
+              <![CDATA[Chrome borwser is launched ]]>
+            </line>
+            <line>
+              <![CDATA[trello home page is launched ]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="createNewBoard" duration-ms="5822" started-at="2020-08-17T22:36:03Z" description="Actions performed on Trello Board Page" finished-at="2020-08-17T22:36:09Z">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
-at test.ActionsOnBoardPageToPrivateTests.createNewBoard(ActionsOnBoardPageToPrivateTests.java:45)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+        <test-method status="PASS" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="createNewBoard" duration-ms="21819" started-at="2020-08-29T17:43:26Z" description="Actions performed on Trello Board Page" finished-at="2020-08-29T17:43:48Z">
           <reporter-output>
+            <line>
+              <![CDATA[clickLoginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[userName Element is detected and userName is entered]]>
+            </line>
+            <line>
+              <![CDATA[password Element is detected and password is entered]]>
+            </line>
+            <line>
+              <![CDATA[atlassianLoginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[continueButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[currentPassword Element is detected and current password is entered]]>
+            </line>
+            <line>
+              <![CDATA[loginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[loginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[Verify Title of new window]]>
+            </line>
+            <line>
+              <![CDATA[CreateNewBoard Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[permissionToMakePrivatePublic Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[changeVisibilityClickPublicButton Element is detected and clicked]]>
+            </line>
           </reporter-output>
         </test-method> <!-- createNewBoard -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="closeBrowser" is-config="true" duration-ms="730" started-at="2020-08-17T22:36:09Z" finished-at="2020-08-17T22:36:10Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageToPrivateTests@90f6bfd]" name="closeBrowser" is-config="true" duration-ms="769" started-at="2020-08-29T17:43:48Z" finished-at="2020-08-29T17:43:49Z">
           <reporter-output>
+            <line>
+              <![CDATA[Tests Completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser is quit]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.ActionsOnBoardPageToPrivateTests -->
       <class name="test.ActionsOnBoardPageToPublicTests">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="openBrowser" is-config="true" duration-ms="6220" started-at="2020-08-17T22:36:10Z" finished-at="2020-08-17T22:36:16Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="openBrowser" is-config="true" duration-ms="6925" started-at="2020-08-29T17:43:49Z" finished-at="2020-08-29T17:43:56Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test initiated ]]>
+            </line>
+            <line>
+              <![CDATA[Chrome borwser is launched ]]>
+            </line>
+            <line>
+              <![CDATA[trello home page is launched ]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="createNewBoard" duration-ms="5607" started-at="2020-08-17T22:36:16Z" description="Actions performed on Trello Board Page" finished-at="2020-08-17T22:36:22Z">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
-at test.ActionsOnBoardPageToPublicTests.createNewBoard(ActionsOnBoardPageToPublicTests.java:41)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+        <test-method status="PASS" signature="createNewBoard()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="createNewBoard" duration-ms="26674" started-at="2020-08-29T17:43:56Z" description="Actions performed on Trello Board Page" finished-at="2020-08-29T17:44:22Z">
           <reporter-output>
+            <line>
+              <![CDATA[clickLoginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[userName Element is detected and userName is entered]]>
+            </line>
+            <line>
+              <![CDATA[password Element is detected and password is entered]]>
+            </line>
+            <line>
+              <![CDATA[atlassianLoginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[continueButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[currentPassword Element is detected and current password is entered]]>
+            </line>
+            <line>
+              <![CDATA[loginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[loginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[Verify Title of new window]]>
+            </line>
+            <line>
+              <![CDATA[CreateNewBoard Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[permissionToMakePrivatePublic Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[changeVisibilityClickPublicButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[makeBoardPublicButton Element is detected and clicked]]>
+            </line>
           </reporter-output>
         </test-method> <!-- createNewBoard -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="closeBrowser" is-config="true" duration-ms="700" started-at="2020-08-17T22:36:22Z" finished-at="2020-08-17T22:36:22Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.ActionsOnBoardPageToPublicTests@47f6473]" name="closeBrowser" is-config="true" duration-ms="759" started-at="2020-08-29T17:44:22Z" finished-at="2020-08-29T17:44:23Z">
           <reporter-output>
+            <line>
+              <![CDATA[Tests Completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser is quit]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.ActionsOnBoardPageToPublicTests -->
       <class name="test.LoginToTrelloTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="openBrowser" is-config="true" duration-ms="16573" started-at="2020-08-17T22:35:32Z" finished-at="2020-08-17T22:35:49Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="openBrowser" is-config="true" duration-ms="9511" started-at="2020-08-29T17:43:02Z" finished-at="2020-08-29T17:43:11Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test initiated ]]>
+            </line>
+            <line>
+              <![CDATA[Chrome borwser is launched ]]>
+            </line>
+            <line>
+              <![CDATA[trello home page is launched ]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="testTrelloPageLogin()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="testTrelloPageLogin" duration-ms="6613" started-at="2020-08-17T22:35:49Z" description="Login to Trello" finished-at="2020-08-17T22:35:55Z">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
-at test.LoginToTrelloTest.testTrelloPageLogin(LoginToTrelloTest.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+        <test-method status="PASS" signature="testTrelloPageLogin()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="testTrelloPageLogin" duration-ms="7779" started-at="2020-08-29T17:43:11Z" description="Verify Login to Trello" finished-at="2020-08-29T17:43:19Z">
           <reporter-output>
+            <line>
+              <![CDATA[clickLoginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[userName Element is detected and userName is entered]]>
+            </line>
+            <line>
+              <![CDATA[password Element is detected and password is entered]]>
+            </line>
+            <line>
+              <![CDATA[atlassianLoginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[continueButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[currentPassword Element is detected and current password is entered]]>
+            </line>
+            <line>
+              <![CDATA[loginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[loginButton Element is detected and clicked]]>
+            </line>
+            <line>
+              <![CDATA[Verify Title of new window]]>
+            </line>
           </reporter-output>
         </test-method> <!-- testTrelloPageLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="closeBrowser" is-config="true" duration-ms="1143" started-at="2020-08-17T22:35:55Z" finished-at="2020-08-17T22:35:57Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.LoginToTrelloTest@4157f54e]" name="closeBrowser" is-config="true" duration-ms="718" started-at="2020-08-29T17:43:19Z" finished-at="2020-08-29T17:43:20Z">
           <reporter-output>
+            <line>
+              <![CDATA[Tests Completed]]>
+            </line>
+            <line>
+              <![CDATA[Browser is quit]]>
+            </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- test.LoginToTrelloTest -->

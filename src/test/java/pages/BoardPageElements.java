@@ -3,8 +3,11 @@ package pages;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.logging.impl.Log4JLogger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.slf4j.Logger;
+import org.testng.Reporter;
 
 import utils.WaitForPagesToLoad;
 
@@ -22,7 +25,7 @@ public class BoardPageElements extends WaitForPagesToLoad {
 	public void clickOnCreateNewBoardElement() {
 
 		waitForElementToBeClickable(browser, createNewBoard()).click(); //
-
+Reporter.log("CreateNewBoard Element is detected and clicked", true);
 	}
 
 	/* returns WebElement to make the board Public/Private */
@@ -35,7 +38,7 @@ public class BoardPageElements extends WaitForPagesToLoad {
 	public void clickOnPermissionToMakePrivatePublic() {
 
 		waitForElementToBeClickable(browser, permissionToMakePrivatePublic()).click(); //
-
+		Reporter.log("permissionToMakePrivatePublic Element is detected and clicked", true);
 	}
 
 	/* returns WebElement to make the board Public/Private */
@@ -49,7 +52,7 @@ public class BoardPageElements extends WaitForPagesToLoad {
 
 		waitForElementToBeClickable(browser, changeVisibilityClickPublicButton()).click(); //
 		// browser.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
+		Reporter.log("changeVisibilityClickPublicButton Element is detected and clicked", true);
 	}
 
 	/* returns WebElement to make the board Public/Private */
@@ -63,7 +66,8 @@ public class BoardPageElements extends WaitForPagesToLoad {
 
 		waitForElementToBeClickable(browser, makeBoardPrivate()).click(); // //
 		browser.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
+		
+		Reporter.log("makeBoardPrivate Element is detected and clicked", true);
 	}
 
 	/* returns WebElement to make the board Public/Private */
@@ -77,7 +81,8 @@ public class BoardPageElements extends WaitForPagesToLoad {
 
 		waitForElementToBeClickable(browser, makeBoardPublicButton()).click(); // //
 		browser.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
+		
+		Reporter.log("makeBoardPublicButton Element is detected and clicked", true);
 	}
 
 }

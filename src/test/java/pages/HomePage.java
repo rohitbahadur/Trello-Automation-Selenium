@@ -3,6 +3,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Reporter;
 
 import utils.WaitForPagesToLoad;
 
@@ -22,7 +23,7 @@ public class HomePage extends WaitForPagesToLoad {
 	public void clickLoginButton() {
 
 		waitForElementToBeClickable(browser, loginButton()).click();
-
+		Reporter.log("clickLoginButton Element is detected and clicked", true);
 	}
 
 }

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>testng</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 18 00:35:32 CEST 2020</td>
+<td>Started on:</td><td>Sat Aug 29 19:43:02 CEST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>50 seconds (50156 ms)</td>
+<tr><td>Total time:</td><td>81 seconds (81610 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,141 +67,79 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.ActionsOnBoardPageToPrivateTests.createNewBoard()'><b>createNewBoard</b><br>Test class: test.ActionsOnBoardPageToPrivateTests<br>Test method: Actions performed on Trello Board Page</td>
-<td><div><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-	at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
-	at test.ActionsOnBoardPageToPrivateTests.createNewBoard(ActionsOnBoardPageToPrivateTests.java:45)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1731295355", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1731295355'><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-	at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
-	at test.ActionsOnBoardPageToPrivateTests.createNewBoard(ActionsOnBoardPageToPrivateTests.java:45)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</pre></div></td>
-<td>5</td>
+<td title='test.ActionsOnBoardPageToPrivateTests.createNewBoard()'><b>createNewBoard</b><br>Test class: test.ActionsOnBoardPageToPrivateTests<br>Test method: Actions performed on Trello Board Page<br/>
+<a href="#Output-821405322" onClick='toggleBox("Output-821405322", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-821405322" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-821405322">
+clickLoginButton Element is detected and clicked<br/>
+userName Element is detected and userName is entered<br/>
+password Element is detected and password is entered<br/>
+atlassianLoginButton Element is detected and clicked<br/>
+continueButton Element is detected and clicked<br/>
+currentPassword Element is detected and current password is entered<br/>
+loginButton Element is detected and clicked<br/>
+loginButton Element is detected and clicked<br/>
+Verify Title of new window<br/>
+CreateNewBoard Element is detected and clicked<br/>
+permissionToMakePrivatePublic Element is detected and clicked<br/>
+changeVisibilityClickPublicButton Element is detected and clicked<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
 <td>test.ActionsOnBoardPageToPrivateTests@90f6bfd</td></tr>
 <tr>
-<td title='test.ActionsOnBoardPageToPublicTests.createNewBoard()'><b>createNewBoard</b><br>Test class: test.ActionsOnBoardPageToPublicTests<br>Test method: Actions performed on Trello Board Page</td>
-<td><div><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-	at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
-	at test.ActionsOnBoardPageToPublicTests.createNewBoard(ActionsOnBoardPageToPublicTests.java:41)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace211973922", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace211973922'><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-	at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
-	at test.ActionsOnBoardPageToPublicTests.createNewBoard(ActionsOnBoardPageToPublicTests.java:41)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</pre></div></td>
-<td>5</td>
+<td title='test.ActionsOnBoardPageToPublicTests.createNewBoard()'><b>createNewBoard</b><br>Test class: test.ActionsOnBoardPageToPublicTests<br>Test method: Actions performed on Trello Board Page<br/>
+<a href="#Output-709439274" onClick='toggleBox("Output-709439274", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-709439274" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-709439274">
+clickLoginButton Element is detected and clicked<br/>
+userName Element is detected and userName is entered<br/>
+password Element is detected and password is entered<br/>
+atlassianLoginButton Element is detected and clicked<br/>
+continueButton Element is detected and clicked<br/>
+currentPassword Element is detected and current password is entered<br/>
+loginButton Element is detected and clicked<br/>
+loginButton Element is detected and clicked<br/>
+Verify Title of new window<br/>
+CreateNewBoard Element is detected and clicked<br/>
+permissionToMakePrivatePublic Element is detected and clicked<br/>
+changeVisibilityClickPublicButton Element is detected and clicked<br/>
+makeBoardPublicButton Element is detected and clicked<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
 <td>test.ActionsOnBoardPageToPublicTests@47f6473</td></tr>
 <tr>
-<td title='test.LoginToTrelloTest.testTrelloPageLogin()'><b>testTrelloPageLogin</b><br>Test class: test.LoginToTrelloTest<br>Test method: Login to Trello</td>
-<td><div><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-	at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
-	at test.LoginToTrelloTest.testTrelloPageLogin(LoginToTrelloTest.java:27)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1601935322", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1601935322'><pre>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-	at pages.TrelloHomePage.enterCurrentPassword(TrelloHomePage.java:79)
-	at test.LoginToTrelloTest.testTrelloPageLogin(LoginToTrelloTest.java:27)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</pre></div></td>
-<td>6</td>
+<td title='test.LoginToTrelloTest.testTrelloPageLogin()'><b>testTrelloPageLogin</b><br>Test class: test.LoginToTrelloTest<br>Test method: Verify Login to Trello<br/>
+<a href="#Output-1653361344" onClick='toggleBox("Output-1653361344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1653361344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1653361344">
+clickLoginButton Element is detected and clicked<br/>
+userName Element is detected and userName is entered<br/>
+password Element is detected and password is entered<br/>
+atlassianLoginButton Element is detected and clicked<br/>
+continueButton Element is detected and clicked<br/>
+currentPassword Element is detected and current password is entered<br/>
+loginButton Element is detected and clicked<br/>
+loginButton Element is detected and clicked<br/>
+Verify Title of new window<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
 <td>test.LoginToTrelloTest@4157f54e</td></tr>
 </table><p>
 </body>
