@@ -3,10 +3,8 @@ package pages;
 
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.logging.impl.Log4JLogger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.slf4j.Logger;
 import org.testng.Reporter;
 
 import utils.WaitForPagesToLoad;
@@ -15,7 +13,7 @@ public class BoardPageElements extends WaitForPagesToLoad {
 
 	//public static WebElement element = null;
 
-	/* Returns webelement to create new board */
+	/* Returns webelement to create new board elements */
 	
 	private WebElement createNewBoard() {
 		element = browser.findElement(By.xpath("//div[@title='Interest']"));

@@ -16,7 +16,7 @@ public class TrelloHomePage extends WaitForPagesToLoad {
 
 	/* Returns the username element */
 
-	public WebElement userName() {
+	private WebElement userName() {
 		element = browser.findElement(By.id("user"));
 		return element;
 	}
