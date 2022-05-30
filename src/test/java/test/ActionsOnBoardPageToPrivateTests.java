@@ -9,7 +9,7 @@ import pages.HomePage;
 import pages.TrelloHomePage;
 import setup.DriverSetUp;
 
-public class ActionsOnBoardPageToPrivateTests extends DriverSetUp {
+class ActionsOnBoardPageToPrivateTests extends DriverSetUp {
 
 	WebDriver browser;
 	
