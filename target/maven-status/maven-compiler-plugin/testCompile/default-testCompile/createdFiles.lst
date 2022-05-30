@@ -1,9 +1,0 @@
-test\LoginToTrelloTest.class
-config\ProjectConfig.class
-pages\HomePage.class
-pages\TrelloHomePage.class
-setup\DriverSetUp.class
-utils\WaitForPagesToLoad.class
-pages\BoardPageElements.class
-test\ActionsOnBoardPageToPublicTests.class
-test\ActionsOnBoardPageToPrivateTests.class
