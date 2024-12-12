@@ -24,8 +24,8 @@ public class ProjectConfig {
 		 * }
 		 * 
 		 * public class AccessDetails { public static final String userName =
-		 * "rohitbahadur2475@gmail.com"; public static final String passWord =
-		 * "Test@@#1234"; }
+		 * "*********@gmail.com"; public static final String passWord =
+		 * "******"; }
 		 */
 	}
 }
